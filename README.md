@@ -4,3 +4,5 @@ This README will serve more as a note to myself on sections and lessons rather t
 
 
 With the power of npm, webpack and postcss I am learning how to use the IMPORT postcss plugin to split my css code into partial files for better understanding and organisation from which I will import into the main styles.css style sheet. (commit dates for this lesson start 01/June/2023)
+
+Reintroduced myself to CSS Selectors and specifcally used the class selector on a div block to move text over an image.
