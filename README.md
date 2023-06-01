@@ -17,3 +17,13 @@ The double underscore is to indiate an element that belongs to the block, large-
 Elements can be written nested in the base block rule, this allows me to replace the base block name with the '&' symbol and make the association between a block and its elements easier to identify
 
 ![Example image 2](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/ElementAndNestedElement.png)
+
+
+I have created a variable css partial file to create instances of repeated code to make rewriting easier, a shade of blue is constantly recurring so it made sense to store it in a variable and use when nesessary rather than typing out the hex code every time.
+Very improtant to note that the cascade in css is important when importing on the styles sheet. The _variable.css must preceed any other imports where the variable will be used otherwise the variable will not be recognised in those css files, I learned this the hard way when I put the _variables.css on the last line and not above the imports where the variable is being used.
+
+![Example image 3](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/ImportOrderImportance.png)
+
+You can also modify element classes by giving the class a second class with a modifier, example being: class="btn btn--orange". This allows me to recycle classes. The double dash indicates a BEM modifier and the name of the modifier is orange. There is no restriction on the amount of modifier classes that can be added. In the below snip btn and btn--orange are recycled and btn--large is new, this new one can be applied to other elements if need be.
+
+![Example image 4](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/ClassModifier.png)
