@@ -27,3 +27,13 @@ Very improtant to note that the cascade in css is important when importing on th
 You can also modify element classes by giving the class a second class with a modifier, example being: class="btn btn--orange". This allows me to recycle classes. The double dash indicates a BEM modifier and the name of the modifier is orange. There is no restriction on the amount of modifier classes that can be added. In the below snip btn and btn--orange are recycled and btn--large is new, this new one can be applied to other elements if need be.
 
 ![Example image 4](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/ClassModifier.png)
+
+Whilst learning how to use Webpack Dev Server to run the website in localhost and to auto update any changes made I ran into problems. A new devServer property was added to the webpack.config.js file which is fine but the tutorial uses a deprecated property within the devServer object that no longer functions in Webpack v5 called contentBase. I had to go on to webpack.js.org to to find the currently used property called static with which I made into an object within which I had to use another property called directory to achieve what the tutorial set out to do. This tutorial does provide a way to use the version of Webpack that is showcased but I felt it was a better option to use the most up to date version of Webpack to provide a challenge rather than getting trapped in a glorified type along lesson.
+
+Tutorials deprecated Webpack code:
+
+![Example image 4](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/DeprecatedcontentBase.png)
+
+My up to date code (as of writing this): 
+
+![Example image 4](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/Currentv5Properites.png)
