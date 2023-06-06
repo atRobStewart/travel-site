@@ -32,8 +32,16 @@ Whilst learning how to use Webpack Dev Server to run the website in localhost an
 
 Tutorials deprecated Webpack code:
 
-![Example image 4](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/DeprecatedcontentBase.png)
+![Example image 5](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/DeprecatedcontentBase.png)
 
 My up to date code (as of writing this): 
 
-![Example image 4](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/Currentv5Properites.png)
+![Example image 6](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/Currentv5Properites.png)
+
+The trend of deprecated properties looks like it will be a constant problem for me, this is a welcome problem as it exercises my problem solving skills and refines my ability to serarch for solutions. The latest depricated property is before:, below you can see webpack failing to build because before: is unknown. Note that the commented out watchFiles above it is the current webpack v5 property. The webpack-cli additionally offers a multitude of other options with watchFiles being one of them, it is highlighted on the last line of the red text. Initally I tried onBeforeSetupMiddleware: due to before being a keyword, but webpack.js.org brought me to the devServer.watchFiles section of the website.
+
+![Example image 7](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/Deprecatedbefore.png)
+
+Addtionally I came across the open: property and used it to auto open the page in localhost to save me from opening a new webpage and opening localhost manually. I found this while trying to fix the previous problem it does not show up in the tutorial, hopefully it doesn't show up later so I can take all the credit. I will note that automating this was in the back of my mind as it was becoming a repetitive task so this was a nice find.
+
+![Example image 8](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/openProperty.png)
