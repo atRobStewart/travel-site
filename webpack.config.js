@@ -14,9 +14,14 @@ module.exports = {
         path: path.resolve(__dirname, 'app')
     },
     devServer: {
-        static:  {
-        directory: path.join(__dirname, 'app'),        
+        open: ['http://localhost:3000/'],
+        watchFiles: {
+            paths: ['./app/**/*.html'],
         },
+        static:  {
+        directory: path.join(__dirname, 'app')  
+        },
+        
         hot: true,
         port: 3000
     },
@@ -32,4 +37,5 @@ module.exports = {
     }
 }
 
+// Cannot GET /app/**/*.html
 //css-loader?url=false doesn't like the ?url=false
