@@ -23,7 +23,8 @@ module.exports = {
         },
         
         hot: true,
-        port: 3000
+        port: 3000,
+        host: '0.0.0.0'
     },
     mode: 'development',
     // watch: true, (no longer needed with devServer watching for changes instead)
