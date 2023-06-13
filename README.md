@@ -45,3 +45,11 @@ The trend of deprecated properties looks like it will be a constant problem for 
 Addtionally I came across the open: property and used it to auto open the page in localhost to save me from opening a new webpage and opening localhost manually. I found this while trying to fix the previous problem it does not show up in the tutorial, hopefully it doesn't show up later so I can take all the credit. I will note that automating this was in the back of my mind as it was becoming a repetitive task so this was a nice find.
 
 ![Example image 8](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/openProperty.png)
+
+With mobiles being the most used device for web browsing nowadays development will now use a Mobile First approach where I will develop for small mobile screens first and scale up for larger devices. I will be using Mixin a postCSSplugin to make working with @media queries easier. A Mixin is a reusable piece of code that will be written in its own separate stylesheet and called in where it's needed. 
+In the image below you can see mixin being used to call in small, medium and large sizes for the Title font with the baseline styles preceeding them as the basline is the smallest.
+The second image shows the mixin code that is being called in from the _mixins.css stylesheet.
+
+![Example image 9](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/Mixin.png)
+
+![Example image 10](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/MixinStyleSheet.png)
