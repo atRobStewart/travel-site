@@ -53,3 +53,8 @@ The second image shows the mixin code that is being called in from the _mixins.c
 ![Example image 9](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/Mixin.png)
 
 ![Example image 10](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/MixinStyleSheet.png)
+
+For this update I learned how to apply responsive images for different screen sizes. Both Art Direction and Image resolution had to be considered to keep the look flow and feel of the website consistent across multiple devices and to reduce load times and file sizes on small devices like phones, there's no sense in downloading a 4k image to a smartphone. 
+Below is an image of the html used to achieve this, each srcset has two images for both standard and high resolution as well as for both landscape and portrait views on smaller devices.
+
+![Example image 10](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/ResponsiveImageCode.png)
