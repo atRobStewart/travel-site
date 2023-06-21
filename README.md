@@ -57,4 +57,12 @@ The second image shows the mixin code that is being called in from the _mixins.c
 For this update I learned how to apply responsive images for different screen sizes. Both Art Direction and Image resolution had to be considered to keep the look flow and feel of the website consistent across multiple devices and to reduce load times and file sizes on small devices like phones, there's no sense in downloading a 4k image to a smartphone. 
 Below is an image of the html used to achieve this, each srcset has two images for both standard and high resolution as well as for both landscape and portrait views on smaller devices.
 
-![Example image 10](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/ResponsiveImageCode.png)
+![Example image 11](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/ResponsiveImageCode.png)
+
+Today I learned the power of creating Reusable Blocks. When looking at a websites completed design it is important to identify any repeating patterns, in this case I created a new _wrapper.css module which was then imported to the styles.css and then used in the html.
+
+![Example image 12](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/WrapperCSS.png)
+
+I created new div classes that used wrapper to apply the CSS contained within the _wrapper.css to the body of text within large-hero, our-beginning and features. Additionally I created a _page-section.css module to apply additional padding and to apply a blue background with white text in features.
+
+![Example image 13](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/ReusableBlocks.png)
