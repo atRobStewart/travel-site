@@ -69,6 +69,6 @@ I created new div classes that used wrapper to apply the CSS contained within th
 
 The Website has been updated with new _headline.css module file which directly styled the "our-beginning" header text in the html which is the upper main body of the website. This time I decided to pause the tutorial and go ahead when appropriate in an attempt to apply as much of my previous learning as possible, I was successful in parts with this having created modifier classes in the html and rules for them in the css but I was caught off guard with the amount of class modifiers and rules that were required. I had initially grouped styles under a single rule but the tutorial separated them out. There's no doubt about how well organised, managable and readible this makes the code but I can see certain criticisms about this postCSS method coming through, particularly regarding how messy the html can get with all the class modifiers.
 
-![Example image 13](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/HeadlineClassModifiers.png)
+![Example image 14](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/HeadlineClassModifiers.png)
 
-![Example image 13](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/HeadlineModifierRules.png)
+![Example image 15](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/HeadlineModifierRules.png)
