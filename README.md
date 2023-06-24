@@ -76,3 +76,15 @@ My view on it so far is that from a development stand point it could be slow, aw
 
 ![Example image 15](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/HeadlineModifierRules.png)
 
+As an aside it is sloppy to use an empty element in your html that only exists for styling purposes. A rule was written in the css to target the element which cleared the floats from the previous elements. This allows the parent div to know how tall it should be as this gets overrided by its two child divs which causes problems in they styling.
+
+![Example image 16](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/SloppyEmptyElement.png)
+
+![Example image 17](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/SloppyCSSClear.png)
+
+
+This need to clear floats is likely to recurr so it is much better practice to write it in a mixin and call it in when needed. Addtionally this will keep the html clear of empty elememts.
+
+![Example image 18](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/ClearFixMixin.png)
+
+![Example image 19](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/ClearFixCall.png)
