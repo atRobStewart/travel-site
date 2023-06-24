@@ -88,3 +88,12 @@ This need to clear floats is likely to recurr so it is much better practice to w
 ![Example image 18](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/ClearFixMixin.png)
 
 ![Example image 19](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/ClearFixCall.png)
+
+
+To prevent this readme from getting out of hand I will be minimizing the amount of notes I leave in it, any documentation on repeat tasks will be left solely to my commits. I will add in any new things that I really need to commit to memory as documenting helps me do this and I will add infomation that I find interesting. This will likely blow up again when I get stuck into Javascript and start to learn concepts like Code Splitting and Lazy Loading. Also if you have actually read this far please hire me, any company that takes the time to actually read through this shows me that they actually care and have passion for their work, that's the kind of place I want to work in. If you're a randomer and made it this far, fair play to ya!
+
+While theres nothing wrong with nesting multiple layers deep in css it is been recommended to me that I avoid nesting more than one layer deep. This presented a problem when tidying up the text of the main body, but it can be resolved by creating a new rule and using a decendant selector.
+
+![Example image 20](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/DecendantSelector.png)
+
+To drive the point home to myself it is important to be selective with what goes in the _global.css file, you don't want to pollute it with rules that don't belong hence the BEM methodology. Adding the colour orange to all link tags highlighted this as it is the default colour on the design. However, in the main body there is a link that is also bold, made so by the css code above. It is also important to note that the code above goes against the BEM methodology but they are scoped to that class, areas where BEM will be abandoned are very few and far between. Most important takeaway is that it is okay to move away from BEM if it is appropriate.
