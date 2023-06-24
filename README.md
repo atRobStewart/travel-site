@@ -88,3 +88,6 @@ This need to clear floats is likely to recurr so it is much better practice to w
 ![Example image 18](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/ClearFixMixin.png)
 
 ![Example image 19](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/ClearFixCall.png)
+
+
+To prevent this readme from getting out of hand I will be minimizing the amount of notes I leave in it, any documentation on repeat tasks will be left solely to my commits. I will add in any new things that I really need to commit to memory as documenting helps me do this and I will add infomation that I find interesting. This will likely blow up again when I get stuck into Javascript and start to learn concepts like Code Splitting and Lazy Loading. Also if you have actually read this far please hire me, any company that takes the time to actually read through this shows me that they actually care and have passion for their work, that's the kind of place I want to work in. If you're a randomer and made it this far, fair play to ya!
