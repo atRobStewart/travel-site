@@ -76,7 +76,7 @@ My view on it so far is that from a development stand point it could be slow, aw
 
 ![Example image 15](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/HeadlineModifierRules.png)
 
-As an aside it is sloppy to use an empty element in your html that only exists for styling purposes. A rule was written in the css to target the element which cleared the floats from the previous elements. This allows the parent div to know how tall it should be as this gets overrided by its two child divs which causes problems in they styling.
+As an aside it is sloppy to use an empty element in your html that only exists for styling purposes. A rule was written in the css to target the element which cleared the floats from the previous elements. This allows the parent div to know how tall it should be as this gets overrided by its two child divs which causes problems in the styling.
 
 ![Example image 16](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/SloppyEmptyElement.png)
 
@@ -97,3 +97,15 @@ While theres nothing wrong with nesting multiple layers deep in css it is been r
 ![Example image 20](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/DecendantSelector.png)
 
 To drive the point home to myself it is important to be selective with what goes in the _global.css file, you don't want to pollute it with rules that don't belong hence the BEM methodology. Adding the colour orange to all link tags highlighted this as it is the default colour on the design. However, in the main body there is a link that is also bold, made so by the css code above. It is also important to note that the code above goes against the BEM methodology but they are scoped to that class, areas where BEM will be abandoned are very few and far between. Most important takeaway is that it is okay to move away from BEM if it is appropriate.
+
+Recurring note that the double underscore in BEM naming convention indicates that this is an element of a block and double dash is a modifier of an element and/or block.
+
+While designing the our-features section I came across the first major instance of BEM reusability by using the row class I used in an earlier section to create a two coloumn layout. This will allow me to write new css in the _row.css module stylesheet where similar css already exists, it currently supports a 1/3 2/3 split but now it will also support a 50/50 split regarding columns. I was able to reuse the gutters modifier from earlier to add padding and margin to the new column layout by adding it to the root row class block in the html.
+
+The > symbol can be used to apply a rule to any child elements nested in the element a class rule is written. In this specific example it is the rows--gutters-large modifier being applied to all proceeding child divs.
+
+![Example image 21](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/RowGuttersLarge.png)
+
+![Example image 22](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/ParentChildElements.png)
+
+The Our Features section of the tutorial has a lot od examples of styling reusability, once I created the styling for one feature item I could directly apply them to other feature items by adding their class names to the appropriate tags in the html. Additionally I added the generic-content-container class to the root row class block to apply the text spacing from a prior section to this section. BEM is starting to prove itself to be a powerful approach to styling inspite of it's inital awkwardness, there is no right or wrong approach or methodology (within reason) but I feel this is one I would be happy to follow through with and expand upon.
