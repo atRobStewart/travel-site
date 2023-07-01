@@ -76,7 +76,7 @@ My view on it so far is that from a development stand point it could be slow, aw
 
 ![Example image 15](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/HeadlineModifierRules.png)
 
-As an aside it is sloppy to use an empty element in your html that only exists for styling purposes. A rule was written in the css to target the element which cleared the floats from the previous elements. This allows the parent div to know how tall it should be as this gets overrided by its two child divs which causes problems in they styling.
+As an aside it is sloppy to use an empty element in your html that only exists for styling purposes. A rule was written in the css to target the element which cleared the floats from the previous elements. This allows the parent div to know how tall it should be as this gets overrided by its two child divs which causes problems in the styling.
 
 ![Example image 16](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/SloppyEmptyElement.png)
 
@@ -97,3 +97,5 @@ While theres nothing wrong with nesting multiple layers deep in css it is been r
 ![Example image 20](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/DecendantSelector.png)
 
 To drive the point home to myself it is important to be selective with what goes in the _global.css file, you don't want to pollute it with rules that don't belong hence the BEM methodology. Adding the colour orange to all link tags highlighted this as it is the default colour on the design. However, in the main body there is a link that is also bold, made so by the css code above. It is also important to note that the code above goes against the BEM methodology but they are scoped to that class, areas where BEM will be abandoned are very few and far between. Most important takeaway is that it is okay to move away from BEM if it is appropriate.
+
+Recurring note that the double underscore in BEM naming convention indicates that this is an element of a block and double dash is a modifier of an element or block.
