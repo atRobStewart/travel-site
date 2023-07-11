@@ -122,4 +122,10 @@ By installing an npm package called postcss-hexrgba I can use a hexadecimal colo
 
 ![Example image 24](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/rgba.png)
 
-![Example image 24](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/PostrgbaHex.png)
+![Example image 25](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/PostrgbaHex.png)
+
+CSS Grid is a more modern way of handling the positioning, centering and overlapping of certain styling, in the case below it is the central text and button at the top of the site in the large-hero css block.
+
+![Example image 26](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/GridBefore.png)
+
+![Example image 27](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/GridAfter.png)
