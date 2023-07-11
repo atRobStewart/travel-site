@@ -19,6 +19,7 @@
   "description": "",
   "devDependencies": {
     "css-loader": "^6.8.1",
+    "postcss-hexrgba": "^2.1.0",
     "postcss-import": "^15.1.0",
     "postcss-loader": "^7.3.2",
     "postcss-mixins": "^9.0.4",

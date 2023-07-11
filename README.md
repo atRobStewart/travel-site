@@ -116,3 +116,10 @@ I have been introduced to Flexbox. I used a mixin media query to target medium s
 
 
 A note more to myself at this point should I be re-reading this: I have been pausing the tutorial regularly at this point and going ahead with the styling on my own. While not completely accurate to the tutorial I have been reasonably successful with producing close to and in some instances the same styling as the tutorial. When I reached a point I was happy with I went back and redone parts to match the tutorial as I felt a lot of time the lesson code layout made more sense but I have proven to myself that I can come up with it myself, I just need to spend more time practicing to hone my skills I do plan on building my own site from scratch once I complete all of this. It's amazing that with even this practice how much the concept of BEM is sticking to me and how much I understand mixin media queries , I never came across them before this and was completely lost with them initally.
+
+
+By installing an npm package called postcss-hexrgba I can use a hexadecimal colour code which will save having to find out the rgb values of colours. This is not valid css therefore the web browser will not be able to interpret this postcss plugin will automatically convert hexadecimal codes inside an rgba() into the corresponding red, green and blue values.
+
+![Example image 24](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/rgba.png)
+
+![Example image 24](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/PostrgbaHex.png)
