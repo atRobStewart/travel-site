@@ -40,6 +40,7 @@
         height: 20px;
         background-color: #ffffff;
         position: absolute;
+        z-index: 10;
         top: 10px;
         right: 10px;
 
@@ -54,7 +55,7 @@
         transition: all .3s ease-out;
         position: relative;
         z-index: -10;
-        padding-top: 100px;
+        padding-top: 80px;
         text-align: center;
 
         @mixin atMedium {
