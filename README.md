@@ -134,3 +134,22 @@ Note the CSS Grid for the colunm layout is not the most graceful way to handle r
 
 
 <h1>Javascript Time!</h1>
+
+So far Javascript has been a reintroduction to object-oriented programming, nothing is strictly new it all just refreshing me on the concepts and terminology. While Javascript is a new language for me my experience with C++ and Java is now paying dividends, the most difficult thing for me so far is the syntax which will come with practice. This also applies to CSS properties, I have a good understanding of B.E.M at this stage I just need to become a lot more familiar with the most popular CSS properties and get experience with seeking out the correct ones for the task I'm trying to achieve, this will also come with practice and repetition.
+
+I am refraining from blowing this up with notes and screenshots, and choosing to let my commits document for me. I and anyone else should be able to look at the commit history and get a decent understanding of what was been done at that point in time. I will tidy up the mess above once this is all complete or I may leave it as a relic to learn from.
+
+I will only use this for concepts that I am truly struggling to understand which I'm sure will hit me soon.
+
+Using the key word "before" and "after" will create a sudo element in the CSS selector instead of using the top and bottom selectors defined in the html, all we need is the middle selector which in turn tidys up the html.
+
+Below are before and afters of the html.
+
+![Example image 28](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/EmptyDivBefore.png)
+
+![Example image 29](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/EmptyDivAfter.png)
+
+Here is how the CSS looks with the sudo elements.
+
+![Example image 30](https://github.com/atRobStewart/udemy-travel-site/blob/master/app/assets/images/mdimages/BeforeAfterCSS.png)
+
